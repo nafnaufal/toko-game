@@ -18,6 +18,8 @@ https://www.cheapshark.com/redirect?dealID=fgGw0t%2FU1b5nRlIKdzTX5W6hgenYkxA0njL
 
 https://www.cheapshark.com/redirect?dealID=EfIWbAAQgltO7czOtfJtdzcpueIJvg%2B4PRvddmLtIAI%3D
 
+https://www.cheapshark.com/redirect?dealID= "Masukin deal id tanpa petik"
+
 
 
 Ini adalah sebuah Toko untuk membandingkan harga antar toko
