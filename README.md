@@ -21,6 +21,12 @@ https://www.cheapshark.com/redirect?dealID=EfIWbAAQgltO7czOtfJtdzcpueIJvg%2B4PRv
 https://www.cheapshark.com/redirect?dealID= "Masukin deal id tanpa petik"
 
 
+Cara mencari lokasi store
+Akses dulu game nya -> cari steam id == null (bukan game steam), cari id gamenya-> telusuri make
+https://www.cheapshark.com/api/1.0/games?id=(idgame)
+
+kemudian cek store id. Udah itu search di bagian 
+https://www.cheapshark.com/api/1.0/stores 
 
 Ini adalah sebuah Toko untuk membandingkan harga antar toko
 
