@@ -1,4 +1,5 @@
 from process import *
+from data import *
 import requests as rq, os
 
 loop = True
