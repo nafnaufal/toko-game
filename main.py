@@ -12,10 +12,19 @@ while loop:
     showListGame(session.game_name, session.game_price)
 
     select = input('Pilih nomor game :')
-    sel_game = rq.get('https://www.cheapshark.com/api/1.0/games?id='+ str(session.game_id[int(select)-1])).json()
-    
 
-    showStore(sel_game, session.store_name, session.game_name[int(select)-1])
+    try:
+        select = int(select)
+    except ValueError:
+        print('Input Salah')
+        exit()
+
+    try:
+        sel_game = rq.get('https://www.cheapshark.com/api/1.0/games?id='+ str(session.game_id[(select)-1])).json()
+        showStore(sel_game, session.store_name, session.game_name[(select)-1])
+    except IndexError:
+        print('Nomor yang anda cari tidak ditemukan')
+        exit()
 
     ulang = input('Ulang?(Y/N)')
     if ulang == 'Y' or ulang == 'y':
